@@ -4,7 +4,7 @@ import { HomeIcon } from "lucide-react";
 export const DATA = {
   name: "Aniket Vishwakarma",
   initials: "DV",
-  url: "https://dub.sh",
+  url: "https://aniketvish0.vercel.app",
   location: "Gurugram, Haryana",
   locationLink: "https://www.google.com/maps/place/gurugram",
   description:
