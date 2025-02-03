@@ -8,7 +8,7 @@ export const DATA = {
   location: "Gurugram, Haryana",
   locationLink: "https://www.google.com/maps/place/gurugram",
   description:
-    "Software Engineer .I love building things and solve problems, adaptive and flexible in technologys" ,
+    "Software Engineer. I love building things and solve problems, adaptive and flexible in technologies" ,
   summary:
     "I started my tech journey in 2nd year of my college. Currently Pursuing, [degree in computer science ](/#education) (final year), actively seeking opportunities to work in great technical environment with passionate people.",
   avatarUrl: "/me.png",
@@ -180,9 +180,9 @@ export const DATA = {
         "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "ProShop",
+      href: "",
+      dates: "jan 2025 - feb 2025",
       active: true,
       description:
         "Designed, developed and sold animated UI components for developers.",
