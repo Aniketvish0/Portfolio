@@ -79,7 +79,7 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "Create a link shortner service that can track your links and can generate qr codes for that link, that can be tracked seperately, build custom zookeeper algorithm to generate psuedo random ids.",
+        "Created a link shortner service that can track your links and can generate qr codes for that link, that can be tracked seperately, build custom zookeeper algorithm to generate psuedo random ids.",
       technologies: [
         "React.js",
         "Typescript",
