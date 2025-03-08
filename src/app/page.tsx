@@ -215,7 +215,7 @@ export default function Page() {
                 </Link>{" "}
                 or{" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href={DATA.contact.social.email.url}
                   className="text-blue-500 hover:underline"
                 >
                    mail me 
