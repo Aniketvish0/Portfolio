@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon } from "lucide-react";
+import { HomeIcon , Notebook} from "lucide-react";
 
 export const DATA = {
   name: "Aniket Vishwakarma",
@@ -25,7 +25,8 @@ export const DATA = {
     "git"
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" }
+    { href: "/", icon: HomeIcon, label: "Home" },
+    {href : "https://anivish.hashnode.dev", icon: Notebook, label: "Blog"}
   ],
   contact: {
     email: "aniketvishwakarma2004@gmail.com",
