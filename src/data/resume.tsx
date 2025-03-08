@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon } from "lucide-react";
+import { HomeIcon, Notebook } from "lucide-react";
+import { Labrada } from "next/font/google";
 
 export const DATA = {
   name: "Aniket Vishwakarma",
@@ -25,11 +26,12 @@ export const DATA = {
     "git"
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" }
+    { href: "/", icon: HomeIcon, label: "Home" },
+    {href : "https://anivish.hashnode.dev", icon: Notebook, label: "Blog"}
   ],
   contact: {
     email: "aniketvishwakarma2004@gmail.com",
-    tel: "+123456789",
+    tel: "+917509395093",
     social: {
       GitHub: {
         name: "GitHub",
