@@ -1,6 +1,5 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, Notebook } from "lucide-react";
-import { Labrada } from "next/font/google";
 
 export const DATA = {
   name: "Aniket Vishwakarma",
@@ -27,7 +26,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    {href : "https://anivish.hashnode.dev", icon: Notebook, label: "Blog"}
+    {href : "https://anivish.hashnode.dev", icon: Notebook, label: "Blog"},
     { href: "/", icon: HomeIcon, label: "Home" },
     {href : "https://anivish.hashnode.dev", icon: Notebook, label: "Blog"}
   ],
@@ -79,7 +78,7 @@ export const DATA = {
   projects: [
     {
       title: "BitLink",
-      href: "https://bitlink-client.vercel.com",
+      href: "https://bitlink-client.vercel.app",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -127,7 +126,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/Aniketvish0/Proshop-Ecommerce",
           icon: <Icons.github className="size-3" />,
         },
       ],
