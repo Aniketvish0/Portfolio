@@ -30,7 +30,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://anivish.hashnode.dev", icon: Notebook, label: "Blog" },
+    { href: "https://aniketvish.hashnode.dev", icon: Notebook, label: "Blog" },
   ],
   contact: {
     email: "aniketvishwakarma2004@gmail.com",
