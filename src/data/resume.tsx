@@ -5,29 +5,32 @@ export const DATA = {
   name: "Aniket Vishwakarma",
   initials: "DV",
   url: "https://aniketvish0.vercel.app",
-  location: "Gurugram, Haryana",
-  locationLink: "https://www.google.com/maps/place/gurugram",
+  location: "pune, India",
+  locationLink: "https://www.google.com/maps/place/pune",
   description:
-    "Software Engineer. I love building things and solve problems, adaptive and flexible in technologies" ,
+    "Software Engineer that loves building products, solving problems and exploring.",
   summary:
-    "I started my tech journey in 2nd year of my college. Currently Pursuing, [degree in computer science ](/#education) (final year), actively seeking opportunities to work in great technical environment with passionate people.",
+    "My journey started in tech in 2nd year of my college, since then I have worked on multiple projects and tried to solve my daily problems with tech. Currently I am contributing to open source and building my own projects.",
   avatarUrl: "/me.png",
   skills: [
+    "Next.js",
     "React",
     "Python",
     "Javascript",
     "Typescript",
     "Node.js",
+    "FastAPI",
     "Mysql",
+    "PostgreSQL",
+    "Prisma",
     "MongoDB",
     "Tailwind Css",
-    "Java",
     "C++",
-    "git"
+    "git",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    {href : "https://anivish.hashnode.dev", icon: Notebook, label: "Blog"},
+    { href: "https://anivish.hashnode.dev", icon: Notebook, label: "Blog" },
   ],
   contact: {
     email: "aniketvishwakarma2004@gmail.com",
@@ -72,9 +75,42 @@ export const DATA = {
       logoUrl: "https://i.ibb.co/2c4Lw3q/Screenshot-2025-01-25-182040.png",
       start: "2021",
       end: "2025",
-    }
+    },
   ],
   projects: [
+    {
+      title: "Repofyi",
+      href: "https://repofyi.vercel.app",
+      dates: "Aug 2025 - Sep 2025",
+      active: true,
+      description:
+        "Repofyi lets you share time‑boxed, read‑only access to your private GitHub repositories without adding collaborators. Enforce expiration and view limits; no downloads, no clones, no forks.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn",
+        "NextAuth",
+        "Monaco Editor",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://repofyi.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/kalpaniks/prepoview",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://ik.imagekit.io/mski40t2b/repofyi.mp4?updatedAt=1757777244920",
+    },
     {
       title: "BitLink",
       href: "https://bitlink-client.vercel.app",
@@ -103,9 +139,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/bitlink.png",
+      image: "",
       video:
-        "",
+        "https://ik.imagekit.io/mski40t2b/bitlink.mp4?updatedAt=1757783962315",
     },
     {
       title: "ProShop",
@@ -120,7 +156,7 @@ export const DATA = {
         "MongoDB",
         "Bootstrap",
         "Paypal",
-        "Mongoose"
+        "Mongoose",
       ],
       links: [
         {
@@ -130,7 +166,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://media-hosting.imagekit.io//0ec6daf989654faf/Untitled video - Made with Clipchamp (1).mp4?Expires=1833176538&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=sb-3M8RdIajkKAxWyE2ZKBkf10Pp4TrEt9clZzonU7V6HI7GQBEeqMgxQ0cH~iCj-kTUvH5-vaVcTEMzGR0-dKb9dt8FwBC3-vSRV2aqJCtAA15S~FQpZapQHhmd9lBiaEi87LDX3AhSAu3vmTigPZJxddwu1MLxqkJEUOXp5q2E3ZzTatPQwEtlXJPhVLFVwSbsdn~QmF7LuUSpKtajMpxm2jaqZokjtt~VsY8NK9jD3uwWDq1OW8Umis88a5OmczoPoyYQiVnzbg5E4S8vEWTbv678K8dqomWZmtPeKnmOjzlrKsVl0TUQU5Tjh5X~DL6jmIQuwcTUAVx-nO5UTQ__",
+      video: "https://ik.imagekit.io/mski40t2b/proshop.mp4?updatedAt=1757785557937",
     },
     {
       title: "6bithash",
@@ -139,13 +175,7 @@ export const DATA = {
       active: true,
       description:
         "Developed an open-source npm package to hash numbers into alphanumeric ids using a 6 bit map, user can also provide their own custom map.",
-      technologies: [
-        "TypeScript",
-        "Node.js",
-        "tsup",
-        "pnpm",
-        "jest"
-      ],
+      technologies: ["TypeScript", "Node.js", "tsup", "pnpm", "jest"],
       links: [
         {
           type: "Website",
@@ -161,40 +191,14 @@ export const DATA = {
       image: "/6bithash.png",
       video: "",
     },
-    {
-      title: "Aidea-Gen",
-      href: "https://aidea-gen.vercel.app/",
-      dates: "Sep 2024 - Oct 2024",
-      active: true,
-      description:
-        "Developed an Frontend for Idea Generation app using AI with the help of youtube videos.",
-      technologies: [
-        "React.js",
-        "Tailwind CSS",
-        "Vite",
-        "Radix ui"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://aidea-gen.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/aideagen.png",
-      video:
-        "",
-    },
   ],
   hackathons: [
     {
       title: "",
       dates: "",
       location: "",
-      description:
-        "",
-      image:
-        "",
+      description: "",
+      image: "",
       mlh: "",
       links: [],
     },
